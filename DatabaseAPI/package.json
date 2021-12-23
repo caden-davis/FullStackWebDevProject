@@ -1,0 +1,12 @@
+{
+  "name": "databaseapi",
+  "version": "1.0.0",
+  "description": "Database API",
+  "main": "apiServer.js",
+  "scripts": {
+    "start": "node apiServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caden Davis",
+  "license": "ISC"
+}

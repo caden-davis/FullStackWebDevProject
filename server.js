@@ -1,17 +1,7 @@
-/*
-// Basic App Setup
-var express = require('express'),
-    app = express(),
-    port = process.env.PORT || 3000,
-    model = require('./models/models');
+// File to start both APIs, used for npm script
 
-var routes = require('./routes/routes');
-routes(app);
+var tsAPI = require('./TorchServeAPI/tsServer'),
+    dbAPI = require('./DatabaseAPI/apiServer');
 
-// Error Handling
-
-// Start the App
-app.listen(port);
-console.log("App started successfully on port " + port);
-*/
-// Build the front-end using React
+tsAPI();
+dbAPI();

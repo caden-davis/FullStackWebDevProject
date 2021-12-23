@@ -1,1 +1,1 @@
-torch-model-archiver --model-name model --version 1.0 --model-file modelDef.py --serialized-file artefacts/model.pt --handler tsHandlerDef.py
+torch-model-archiver --model-name model --version 1.0 --model-file modelDef.py --serialized-file model.pt --handler tsHandlerDef.py
