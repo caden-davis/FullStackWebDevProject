@@ -1,4 +1,6 @@
-
+from modelDef import Net
+import torch
+# Import torchserve
 
 import logging
 logger = logging.getLogger("TorchServeAPI Handler")
@@ -12,6 +14,7 @@ class Handler:
         pass
 
     def initialize(self, context):
+        # Connect to net via torchserve
         self.initialized = True
         pass
 
