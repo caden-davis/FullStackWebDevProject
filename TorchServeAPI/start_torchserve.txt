@@ -1,0 +1,1 @@
+torchserve --start --model-store model_store --models model=model.mar --ts-config ts_config.cfg
